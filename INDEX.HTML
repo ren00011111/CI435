@@ -1,10 +1,14 @@
 <!doctype html><!--HTML5 doctype declaration -->
 <html lang="en"><!--default language of the document content -->
 	
-    <head>
-		<meta charset="utf-8"><!--character encoding for the document (Unicode) -->
-		<title>Learning Journal template</title><!--web page title -->
-	</head>
+   <head>
+    <meta charset="utf-8" >
+	<meta name ="viewport" content = "width=device-width, initial-scale=1">
+    <title>Learning Journal</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
+	<link href="public_html/rtositefiles/learningjournal.html" rel="learningjournal">
+</head>
 
 <body>
 <!--Markup all web page content inside the 'body' tags -->
@@ -16,7 +20,7 @@
 		<h2>sub-heading</h2>
 	</header>
 	
-    <nav><!--The primary navigation for the page -->
+    <nav class="menu"> <!--The primary navigation for the page -->
 	<ul>
 		
 		<li><a href="tutorial.html">Tutorial</a></li>
@@ -29,8 +33,8 @@
         	<h2>Weekly Posts</h2>
 	
     	<article>
-			<header>
-			<h3>Week 1: ...</h3>
+			<header class="post">
+				<h3>Week 1: ...</h3>
 			</header>
 				<p> This week's workshop involved the completion of the setup process of a simple webpage.
 					This webpage will be used to document my learning journey throughout the course, and will be updated weekly with new content.
@@ -42,7 +46,10 @@
 				<h4>Further Learning</h4>
 				<p> In additon to this week's university workshop, I have been exploring the use of semantic HTML elements in web design. This includes understanding how to use HTML elements to create a logical structure for webpages. 
 					I have also been researching best practices for accessibility and SEO, which are important considerations when building webpages.
-					A resource that I found particularly helpful was the freeCodeCamp Responsive Web Design Certification – Cat Photo App Workshop.
+					A resource that I found particularly helpful was the
+				<a href="https://www.freecodecamp.org/learn/responsive-web-design/" target="_blank">freeCodeCamp Responsive Web Design Certification – Cat Photo App Workshop</a>.
+
+
 					This was due to the immediate implementation of each concept that was covered, which allowed me to apply my learning in a practical way. 
 					The workshop provided clear instructions and examples, which made it easier to understand how to use semantic HTML elements effectively in web design,
 					as opposed to passively reading documentation. This active learning approach also encouraged experimentation, error recognition and correction, which overall 
@@ -58,17 +65,125 @@
 					This lead me to install the Live Server extension in Visual Studio Code, which allows me to see the immediate results of my code changes in a web browser. This has been a valuable tool for my learning, 
 					as it allows me to quickly identify and correct errors, and to see the impact of my changes in real time. This also reduced the gap between coding and output, 
 					directly strengthening my confience as I progressed. </p>
-			</p>
+			
+			<h3>Week 2:</h3>
+				<p> This week's workshop involved the adaptation of elements previously established within a simple webpage.
+					The webpage's adaptations included the addition of lists, tables, and definition lists, as well as the implementation of images and links. These elements were added to enhance the structure and content of the webpage, and to provide a more comprehensive learning experience.
+					The addition of lists allowed for the organisation of content in a clear and concise manner, while the implementation of tables provided a way to display data in a structured format. The use of definition lists allowed for the presentation of terms and their definitions in a clear and organised way.
+					The inclusion of images and links added visual interest to the webpage, and provided opportunities for further exploration of related content. Overall, these adaptations enhanced the learning experience by providing a more comprehensive and engaging webpage, while also allowing for the application of new concepts and techniques in web design.
+					We were also introduced to the concept of CSS, which is used to define the presentation of HTML elements. This was a new concept for me, and I found it interesting to learn about how CSS can be used to control the layout and appearance of a webpage. Due to this, the aesthetics of my webpage are continously growing, 
+					which is a great motivator for me to continue learning and improving my web design skills. This is achieved through the use of CSS properties such as color, font, and layout, held in an external stylesheet, allowing for the creation of visually appealing and user-friendly webpages, as well as manageable code.
+
+				</p>
+				
+				<h3> Week 3: DRAFT </h3>
+				<p> </p>
 
 
+				<h3> Week 4: DRAFT	</h3>
+				<p> </p>
+
+
+				<h3> Week 5: DRAFT </h3>
+				<p> This week's workshop allowed me to develop a clearer understanding surrounding the importance of testing and evaluation within the web development process.
+					The lecture introduced the standards-compliant processes regarding the implementation of forms. Despite this task appearing simple, I quickly learnt it is actually
+					something that requires strenious planning and consideration. This approach allows us to bridge the gap between the developer's perspective and the needs of the end user
+					when interacting with the website. We were also equipped with tools such as W3C Markup Validation and CSS Validation Services, alongside built-in browser development tools
+					to debug HTML and CSS, allowing us to finalise a strong foundation in both languages and prepare for the introduction of Javascript. 
+
+					A practical issue I encountered involved missing images when uploading files to the server. Today, I learnt that whilst images may appear correctly when referencing a local file path, 
+					this changes once the site is uploaded online. 
+
+				</p>
+
+				<h3> Week 6: DRAFT - introduction to javascript </h3>
+					<p> text here </p>
+
+				<h3> Week 7: control structures and strings in javascript  </h3>
+				<p> </p>
+
+
+				<h4> Pre HTML Validation: </h4>
+				 <img src="rtositefiles/siteimages/pre-validhtml-screenshot.png"
+		 width="250"
+		 height="250"
+		 alt="Webpage screenshot before HTML validation">
+
+		 <h4> Post HTML Validation: </h4>
+				 <img src="rtositefiles/siteimages/post-validhtml-screenshot.png"
+		 width="250"
+		 height="250"
+		 alt="Webpage screenshot after HTML validation">
+
+
+				<h4>Further Learning</h4>
+				<p> </p>
+			
+	<!-- The lists/table below are there to test how they look on webpage --> 
+			<ol>
+    <li>Tutorial 1
+  	<ul>
+    		<li>Set up site folder</li>
+   	    	<li>Create index.html</li>
+    		<li>Create guide.html</li>
+    		<li>Link files in a lists for navigation</li>
+	</ul>
+    </li>
+    <li>Tutorial 2
+  	<ul>
+    		<li>Add posts and date</li>
+    		<li>Add named anchors</li>
+  	</ul>
+   </li>
+</ol>
+
+ <!-- Once you have attached a stylesheet to the Learning Journal page, delete the border attribute and style the table border using CSS. --> 
+  <table>
+  <tr>
+    <th>Day/time</th>
+    <th>Monday</th>
+    <th>Tuesday</th>
+  </tr>
+  <tr>
+    <td>9-10am</td>
+    <td></td>
+    <td>CI435 lecture</td>
+  </tr>
+  <tr>
+    <td>10-11am</td>
+    <td>CI401 lecture</td>
+    <td>CI435 lab </td>
+  </tr>
+</table>
+<!-- end of examples --> 
+ <!-- need to implement <footer>, <cite> href=etcetcetc, and <blockquote> somewhere here too-->
+
+<dl>
+  <dt><strong>HTML</strong></dt>
+    <dd>Hyper-text markup language - markup language used to structure content</dd>
+  <dt><strong>CSS</strong></dt>
+    <dd>Cascading stylesheets - used to define presentation of HTML elements</dd>
+  <dt><strong>JavaScript</strong></dt>
+    <dd>Scripting language for adding interactive behaviour to web pages</dd>
+</dl>
         
 		</article>
-           <figure>
-		   <img src="public_html/rtositefiles/siteimages/pink-cadillac-car.jpg" width="250" height="250" alt="Pink Cadillac car" >
-		   <figcaption>This is a picture of a car to display my knowledge regarding the implementation of images into a webpage.<br>
-		   <small>The car is a pink Cadillac.</small>
-		   </figcaption>
-		   </figure>
+
+<figure>
+  <a href="https://www.w3.org/html/logo/">
+    <img src="rtositefiles/siteimages/pink-cadillac-car.jpg"
+         width="250"
+         height="250"
+         alt="Pink Cadillac car">
+  </a>
+
+  <figcaption>
+    This is a picture of a car to display my knowledge regarding the implementation of images into a webpage.<br>
+    <small>The car is a pink Cadillac.</small>
+
+    <p>INSERT IMAGE OF CODE HERE!!</p>
+  </figcaption>
+</figure>
 
     </main><!--Close main page content --> 
         

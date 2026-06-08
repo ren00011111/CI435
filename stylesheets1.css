@@ -1,0 +1,9 @@
+/* 
+this is the CSS style sheet!! 
+*/ 
+
+@media (min-width: 50em) {
+    .menu li {
+        display: inline;
+    }
+}
