@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    margin: 0.5em;
+}
+
+.fieldOK {
+    background-color: rgb(207, 247, 234);
+}
+
+.fieldError {
+    background-color: rgb(243, 211, 211);
+}
